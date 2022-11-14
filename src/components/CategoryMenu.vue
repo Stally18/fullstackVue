@@ -1,7 +1,9 @@
 <template>
   <ul>
     <li class="nav-item dropdown">
-      <a href="catalog.html"><div class="text bold">Книги</div></a>
+      <router-link class="nav-link" :to="{name: 'Catalog'}">
+        <div class="text bold">Книги</div>
+      </router-link>
       <ul class="dropdown-menu">
         <li><div class="dropdown-block">
           <div class="text bold">Жанры</div><br>

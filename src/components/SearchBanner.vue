@@ -1,9 +1,9 @@
 <template>
   <div id="content">
     <div class="logo">
-      <a href="./public/index.html">
+      <router-link class="nav-link" :to="{name: 'Main'}">
         <img src="https://www.chitai-gorod.ru/ii/img/logo/main_logo_white.svg">
-      </a>
+      </router-link>
     </div>
     <label>
       <input placeholder="Поиск..."/>
