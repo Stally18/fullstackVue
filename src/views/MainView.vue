@@ -1,13 +1,13 @@
 <template>
-  <div class="banners-batch row">
-    <SliderBanner></SliderBanner>
-    <PromoBanner></PromoBanner>
-  </div>
-  <div class="banners-row row">
-    <SmallPromoBanner v-bind="smallBanner1"></SmallPromoBanner>
-    <SmallPromoBanner v-bind="smallBanner2"></SmallPromoBanner>
-    <SmallPromoBanner v-bind="smallBanner3"></SmallPromoBanner>
-  </div>
+    <div class="banners-batch row">
+      <SliderBanner></SliderBanner>
+      <PromoBanner></PromoBanner>
+    </div>
+    <div class="banners-row row">
+      <SmallPromoBanner v-bind="smallBanner1"></SmallPromoBanner>
+      <SmallPromoBanner v-bind="smallBanner2"></SmallPromoBanner>
+      <SmallPromoBanner v-bind="smallBanner3"></SmallPromoBanner>
+    </div>
   <BookCollection header='Новинки литературы'></BookCollection>
   <BookCollection header='Новинки литературы'></BookCollection>
 </template>

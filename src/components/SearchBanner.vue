@@ -16,9 +16,9 @@
         <img src="https://www.chitai-gorod.ru/ii/img/general/basket.svg">
       </div>
       <div class="text">
-        <div><span class="bold small">Корзина:</span> <span class="bold">0</span></div>
-        <div><span class="small">Закладки:</span> <span class="small">0</span></div>
-        <div><span class="small">Резерв:</span> <span class="small">0</span></div>
+        <div class="text-item"><div class="bold small">Корзина:</div> <div class="bold">0</div></div>
+        <div class="text-item"><div class="small">Закладки:</div> <div class="small">0</div></div>
+        <div class="text-item"><div class="small">Резерв:</div> <div class="small">0</div></div>
       </div>
     </div>
   </div>
@@ -44,6 +44,11 @@ export default {
 .basket {
   display: flex;
   margin-right: 20px;
+}
+
+.basket .text .text-item {
+  display: flex;
+  justify-content: space-between;
 }
 
 .basket .logo {

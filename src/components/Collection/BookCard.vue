@@ -11,7 +11,6 @@
     <div class="buttons">
       <button><img src="">Купить</button>
       <div class="favourite">
-        <img src="https://d1bd5u3q1t3nu7.cloudfront.net/icons/297/magnifying-glass-icon-256.png" height="40px">
         <img src="https://freepngimg.com/download/instagram/60239-like-icons-bookmark-button-computer-facebook-instagram.png" height="40px">
       </div>
     </div>
@@ -19,8 +18,6 @@
 </template>
 
 <script>
-
-// TODO: что за бред с иконками
 
 export default {
   name: "BookCard",
@@ -98,6 +95,10 @@ button {
   background-color: whitesmoke;
   border-radius: 5px;
   border: 0;
+}
+
+.favourite img {
+  height: 40px;
 }
 
 </style>

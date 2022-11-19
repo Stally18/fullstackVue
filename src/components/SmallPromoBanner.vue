@@ -1,5 +1,5 @@
 <template>
-    <div class="col-md-4">
+    <div class="col-xl-4">
       <div class="banner">
         <div class="left-logo">
           <img :src="src">
