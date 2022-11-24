@@ -19,12 +19,14 @@
         </div>
       </div>
     </header>
-    <main class="container">
-      <div class="menu">
+    <div class="menu">
+      <div class="container">
         <CategoryMenu></CategoryMenu>
       </div>
+    </div>
+    <div class="container">
       <router-view></router-view>
-    </main>
+    </div>
   </div>
 </template>
 
@@ -35,7 +37,6 @@ import SearchBanner from "./components/SearchBanner";
 import CategoryMenu from "@/components/CategoryMenu";
 
 // TODO: как можно сделать чтобы элемнты внутри HeadBanner отображались по разному? (вторая строка не small, войти и модуль города больше)
-// TODO: совсем запутался по поводу столбцов бутстрапа, и не нашёл как сделать переезд в одну строку (как в оригинале)
 
 export default {
   name: 'App',

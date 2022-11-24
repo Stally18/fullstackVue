@@ -1,15 +1,22 @@
 <template>
     <div class="banners-batch row">
-      <SliderBanner></SliderBanner>
-      <PromoBanner></PromoBanner>
-    </div>
-    <div class="banners-row row">
-      <SmallPromoBanner v-bind="smallBanner1"></SmallPromoBanner>
-      <SmallPromoBanner v-bind="smallBanner2"></SmallPromoBanner>
-      <SmallPromoBanner v-bind="smallBanner3"></SmallPromoBanner>
+      <div class="col-lg-12 col-xl-9">
+        <div class="row">
+          <SliderBanner></SliderBanner>
+          <PromoBanner></PromoBanner>
+        </div>
+      </div>
+      <div class="col-lg-12 col-xl-3">
+        <div class="row">
+          <SmallPromoBanner v-bind="smallBanner1"></SmallPromoBanner>
+          <SmallPromoBanner v-bind="smallBanner2"></SmallPromoBanner>
+          <SmallPromoBanner v-bind="smallBanner3"></SmallPromoBanner>
+        </div>
+      </div>
     </div>
   <BookCollection header='Новинки литературы'></BookCollection>
   <BookCollection header='Новинки литературы'></BookCollection>
+
 </template>
 
 <script>
@@ -50,15 +57,12 @@ export default {
 
 <style>
 
-.banners-batch {
-  display: flex;
-  padding-top: 100px;
+.banners-batch .row {
+  padding-top: 20px;
 }
 
-.banners-row {
-  display: flex;
-  align-items: stretch;
-  padding-top: 20px;
+.banners-batch {
+  padding-top: 60px;
 }
 
 /* ЗДЕСЬ ТОЛЬКО ПАРАМЕТРЫ ОБЩИЕ ДЛЯ ВСЕХ БАННЕРОВ */

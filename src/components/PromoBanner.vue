@@ -1,5 +1,5 @@
 <template>
-  <div class="col-md-3 col-xl-3">
+  <div class="col-3">
     <div class="banner">
       <button class="btn"><div class="bold">Лучшие из лучших</div></button>
       <div class="center-logo">

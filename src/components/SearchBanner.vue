@@ -16,7 +16,7 @@
         <img src="https://www.chitai-gorod.ru/ii/img/general/basket.svg">
       </div>
       <div class="text">
-        <div class="text-item"><div class="bold small">Корзина:</div> <div class="bold">0</div></div>
+        <div class="text-item"><div class="bold small">Корзина:</div> <div class="bold">а:</div></div>
         <div class="text-item"><div class="small">Закладки:</div> <div class="small">0</div></div>
         <div class="text-item"><div class="small">Резерв:</div> <div class="small">0</div></div>
       </div>
@@ -26,7 +26,7 @@
 
 <script>
 
-// TODO: как сделать чтобы слова и цифры разнести в стороны
+// TODO: пощему ноль съезжаит
 
 export default {
   name: "SearchBanner"
@@ -44,6 +44,14 @@ export default {
 .basket {
   display: flex;
   margin-right: 20px;
+}
+
+.basket .text {
+  width: 80px;
+}
+
+.basket .text .bold {
+  padding-bottom: 5px;
 }
 
 .basket .text .text-item {
@@ -73,9 +81,5 @@ button {
   border: 0;
   background-color: darkslateblue;
   border-radius: 0 5px 5px 0;
-}
-
-.text {
-  text-align: start;
 }
 </style>

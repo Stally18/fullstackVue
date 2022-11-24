@@ -1,5 +1,5 @@
 <template>
-    <div class="col-xl-4">
+    <div class="col-lg-4 col-xl-12">
       <div class="banner">
         <div class="left-logo">
           <img :src="src">
@@ -34,6 +34,10 @@ export default {
   min-height: 90px;
   width: auto;
   height: 100%;
+}
+
+.col-xl-12 {
+  padding-bottom: 5px;
 }
 
 </style>
