@@ -34,7 +34,7 @@
 //import HelloWorld from './components/HelloWorld.vue'
 import HeadBanner from "./components/HeadLine";
 import SearchBanner from "./components/SearchBanner";
-import CategoryMenu from "@/components/CategoryMenu";
+import CategoryMenu from "./components/CategoryMenu";
 
 // TODO: как можно сделать чтобы элемнты внутри HeadBanner отображались по разному? (вторая строка не small, войти и модуль города больше)
 

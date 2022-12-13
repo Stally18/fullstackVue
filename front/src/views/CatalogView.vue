@@ -35,7 +35,7 @@
 </template>
 
 <script>
-import BookCollection from "@/components/Collection/BookCollection";
+import BookCollection from "../components/Collection/BookCollection";
 export default {
   name: "CatalogView",
   components: {BookCollection}

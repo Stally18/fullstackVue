@@ -1,6 +1,6 @@
 import * as VueRouter from 'vue-router'
-import MainView from '@/views/MainView.vue'
-import CatalogView from "@/views/CatalogView";
+import MainView from '../views/MainView.vue'
+import CatalogView from "../views/CatalogView";
 
 const routes = [
   {

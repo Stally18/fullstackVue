@@ -20,10 +20,10 @@
 </template>
 
 <script>
-import BookCollection from "@/components/Collection/BookCollection";
-import SmallPromoBanner from "@/components/SmallPromoBanner";
-import PromoBanner from "@/components/PromoBanner";
-import SliderBanner from "@/components/SliderBanner";
+import BookCollection from "../components/Collection/BookCollection";
+import SmallPromoBanner from "../components/SmallPromoBanner";
+import PromoBanner from "../components/PromoBanner";
+import SliderBanner from "../components/SliderBanner";
 
 export default {
   name: "MainView",

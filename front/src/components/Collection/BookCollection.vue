@@ -13,7 +13,7 @@
 </template>
 
 <script>
-import BookCard from "@/components/Collection/BookCard";
+import BookCard from "./BookCard";
 export default {
   name: "BookCollection",
   components: {BookCard},
