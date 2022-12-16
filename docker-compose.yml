@@ -16,6 +16,7 @@ services:
 
   webserver:
     image: nginx:alpine
+    restart: always
     container_name: web-webserver
     tty: true
     ports:
@@ -34,10 +35,25 @@ services:
     ports:
       - "5432:5432"
     environment:
+      POSTGRES_DB: 'postgres'
       POSTGRES_USER: 'postgres'
       POSTGRES_PASSWORD: 'admpass'
+      PGDATA: /var/lib/postgresql/data
+    volumes:
+      - ./database/:/var/lib/postgresql/data
     networks:
       - app-network
+
+  python:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile_py
+    restart: always
+    volumes:
+      - ./djangoproj/:/var/www/djangoproj
+    ports:
+      - "8000:8000"
+    command: "python manage.py runserver"
 
 networks:
   app-network:
