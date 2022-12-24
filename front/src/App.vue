@@ -126,6 +126,10 @@ main .text {
   font-weight: bolder;
 }
 
+.scored {
+  text-decoration: line-through;
+}
+
 /* leave it here */
 .large {
   font-size: large;

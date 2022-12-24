@@ -14,8 +14,8 @@
         </div>
       </div>
     </div>
-  <BookCollection header='Новинки литературы'></BookCollection>
-  <BookCollection header='Новинки литературы'></BookCollection>
+  <BookCollection header='Новинки'></BookCollection>
+  <BookCollection header='Манга'></BookCollection>
 
 </template>
 

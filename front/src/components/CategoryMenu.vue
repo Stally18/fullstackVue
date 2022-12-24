@@ -96,6 +96,10 @@ ul li {
   padding: 5px 5px;
 }
 
+.nav-link {
+  padding: 0;
+}
+
 .dropdown-block {
   margin: 5px 10px 10px;
 }
@@ -104,7 +108,7 @@ ul li {
   position: relative;
   display: none;
   max-width: 1060px;
-  margin-top: 26px;
+  margin-top: 1px;
   border-top: 0;
   border-radius: 0;
 }

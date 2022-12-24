@@ -53,7 +53,9 @@ services:
       - ./djangoproj/:/var/www/djangoproj
     ports:
       - "8000:8000"
-    command: "python manage.py runserver"
+    command: "python manage.py runserver 192.168.99.100:8000"
+    networks:
+      - app-network
 
 networks:
   app-network:

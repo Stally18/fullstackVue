@@ -27,8 +27,8 @@
       </div>
       <div class="col-md-9">
         Книжный магазин > Книги
-        <BookCollection></BookCollection>
-        <BookCollection></BookCollection>
+        <BookCollection header="Популярное"></BookCollection>
+        <BookCollection header="Новинки"></BookCollection>
       </div>
     </div>
   </div>
